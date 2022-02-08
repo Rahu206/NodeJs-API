@@ -1,0 +1,259 @@
+  1. git clone git@github.com:acemilyalcin/sample-node-project.git
+  179  2. cd sample-node-project
+  180  3. npm install
+  181  4. npm start
+  182  sudo su -
+  183  ls
+  184  cd myagent/
+  185  ./run.sh
+  186  cd myagent/
+  187  ls
+  188  cd _work/
+  189  ls
+  190  cd r2
+  191  ls
+  192  cd a
+  193  ls
+  194  cd ..
+  195  cd ../..
+  196  ls
+  197  cd _work/
+  198  ls
+  199  cd 1
+  200  ls
+  201  cd s
+  202  ls
+  203  cd ..
+  204  cd 3
+  205  ls
+  206  cd s
+  207  ls
+  208  pwd
+  209  ls
+  210  cd 2
+  211  cd ..
+  212  ls
+  213  cd ..
+  214  cd 2/s
+  215  ls
+  216  cd ..
+  217  sudo rm -rf 1
+  218  ls
+  219  sudo rm -rf 2
+  220  ls
+  221  sudo rm -rf r2
+  222  ls
+  223  cd ..
+  224  curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-k                                                                                                             ey add -
+  225  apt-key list
+  226  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic                                                                                                             /mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.                                                                                                             list
+  227  sudo apt update
+  228  sudo apt install mongodb-org
+  229  sudo systemctl start mongod.service
+  230  sudo systemctl status mongod
+  231  ls
+  232  cd _work/
+  233  ls
+  234  cd r2/
+  235  ls
+  236  cd a/
+  237  ls
+  238  cd _NodeJs-API-CI/
+  239  ls
+  240  cd drop/
+  241  ls
+  242  rm -rf b/
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd ..
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd ..
+  251  ls
+  252  rm -rf r2/
+  253  ls
+  254  sudo apt install unzip
+  255  ls
+  256  sudo rm -rf r2/
+  257  ls
+  258  cd ~
+  259  cd /
+  260  ls
+  261  cd myagent/
+  262  ls
+  263  history
+  264  sudo systemctl status mongod
+  265  ls
+  266  cd myagent/
+  267  ls
+  268  sudo rm -rf SampleNodeJSApp/
+  269  ls
+  270  ./run.sh
+  271  cd myagent/
+  272  ls
+  273  ./run.sh
+  274  cd myagent/
+  275  ./run.sh
+  276  ls
+  277  cd myagent/
+  278  ls
+  279  cd myagent/
+  280  ./run.sh
+  281  ls
+  282  cd myagent/
+  283  ./run.sh
+  284  ls
+  285  sudo su -
+  286  ls
+  287  cd myagent/
+  288  ./run.sh
+  289  ls
+  290  cd myagent/
+  291  ls
+  292  cd _work/
+  293  ls
+  294  sudo rm -rf r1
+  295  ls
+  296  cd r1
+  297  ls
+  298  cd a
+  299  ls
+  300  cd _NodeJs-API-CI/
+  301  ls
+  302  cd drop/
+  303  ls
+  304  cd ..
+  305  cd ../../..
+  306  ls
+  307  sudo rm -rf r1
+  308  sudo apt install unzip
+  309  sudo apt install zip
+  310  ls
+  311  cd ..
+  312  ls
+  313  cd _work/
+  314  ls
+  315  cd r1/
+  316  ls
+  317  cd a/
+  318  ls
+  319  cd _n
+  320  cd _NodeJs-API-CI/
+  321  ls
+  322  cd drop/
+  323  ls
+  324  cd b/
+  325  ls
+  326  cd ..
+  327  ll
+  328  sudo unzip app.zip
+  329  unzip app.zip
+  330  ll
+  331  chmod 777 app.zip
+  332  unzip app.zip
+  333  sudo unzip app.zip
+  334  npm cache clean
+  335  sudo npm cache clean
+  336  ls
+  337  unzip app.zip
+  338  sudo unzip app.zip
+  339  ls
+  340  apt install unzip
+  341  sudo apt install unzip
+  342  history
+  343  cd myagent/
+  344  cd _work/
+  345  ls
+  346  cd 1/s
+  347  ls
+  348  pwd
+  349  cd
+  350  sudo su -
+  351  ls
+  352  sudo node server.js
+  353  sudo su -
+  354  ls
+  355  sudo su -
+  356  cd myagent/
+  357  ./run.sh
+  358  ls
+  359  cd myagent/
+  360  ./run.sh
+  361  cd myagent/
+  362  ./run.sh
+  363  cd myagent/
+  364  ./run.sh
+  365  ls
+  366  cd myagent/
+  367  curl localhost:3005/hello_world
+  368  curl localhost:3000/hello_world
+  369  history
+  370  MONGODB_URL=mongodb://localhost:27017/testdb
+  371  export PORT=3000
+  372  curl localhost:3000/hello_world
+  373  systemctl status mongod
+  374  curl localhost:3000/hello_world
+  375  history
+  376  ls
+  377  cd _work/
+  378  ls
+  379  cd 2
+  380  ls
+  381  cd s
+  382  ls
+  383  nano env
+  384  node server.js
+  385  cd ../..
+  386  ls
+  387  sudo rm -rf r2
+  388  sudo rm -rf r1
+  389  ls
+  390  MONGODB_URL=mongodb://localhost:27017/testdb
+  391  export PORT=3000
+  392  node server.js
+  393  ls
+  394  cd r2
+  395  ls
+  396  cd a
+  397  ls
+  398  cd _NodeJs-API-CI/
+  399  ls
+  400  cd drop/
+  401  ls
+  402  node server.js
+  403  cd ../../../..
+  404  ls
+  405  cd 2
+  406  ls
+  407  cd s
+  408  ls
+  409  node server.js
+  410  cd ../../..
+  411  ls
+  412  cd _work/
+  413  ls
+  414  cd 1
+  415  ls
+  416  cd s
+  417  ls
+  418  nano env
+  419  ls
+  420  MONGODB_URL=mongodb://localhost:27017/testdb
+  421  ls
+  422  cd ../../..
+  423  ls
+  424  cd ..
+  425  ls
+  426  cd myagent/
+  427  ls
+  428  cd _work/
+  429  ls
+  430  cd 2
+  431  ls
+  432  cd s
+  433  ls
+  434  export MONGODB_URL=mongodb://localhost:27017/testdb
+  435  export PORT=3005
+  436  node server.js
