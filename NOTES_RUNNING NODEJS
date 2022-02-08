@@ -1,0 +1,20 @@
+ git clone git@github.com:acemilyalcin/sample-node-project.git
+ cd sample-node-project
+--------------------------------
+install mangodb:
+curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-k                                                                                                             ey add -
+apt-key list
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+ sudo apt update
+  sudo apt install mongodb-org
+  sudo systemctl start mongod.service
+  sudo systemctl status mongod
+
+---------------------then run follow command
+export MONGODB_URL=mongodb://localhost:27017/testdb
+export PORT=3000
+node server.js
+
+-------
+and checking purpose:
+publicip:3000/hello_world----------------on browser
